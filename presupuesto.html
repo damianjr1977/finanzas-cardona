@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Presupuesto - Finanzas Cardona</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="menu">
+      <div class="menu-contenedor">
+        <a href="index.html">
+          <img src="img/logo.png" alt="Logotipo de Finanzas Cardona" class="logo">
+        </a>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="presupuesto.html" class="activo">Presupuesto</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="aviso.html">Aviso legal</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- FORMULARIO DE PRESUPUESTO -->
+  <main>
+    <section class="formulario">
+      <h2>Solicita tu presupuesto</h2>
+      <form action="gracias.html" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required pattern="[A-Za-zÁÉÍÓÚÑáéíóúñ ]{2,}">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{9}">
+
+        <label for="mensaje">Solicite más información:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <div class="checkbox">
+          <input type="checkbox" id="privacidad" required>
+          <label for="privacidad">Acepto la política de privacidad</label>
+        </div>
+
+        <button type="submit">Enviar solicitud</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Finanzas Cardona. Todos los derechos reservados.</p>
+    <p>
+      <img src="img/icono-correo.png" alt="Correo" width="20" height="20">
+      <a href="mailto:bcardona@gmail.com">bcardona@gmail.com</a> |
+      <img src="img/icono-telefono.png" alt="Teléfono" width="20" height="20">
+      <a href="tel:+34952600000">+34 952 600 000</a>
+    </p>
+    <div class="redes">
+  <a href="https://wa.me/34952600000" target="_blank">
+    <img src="img/whatsapp.png" alt="WhatsApp" width="24" height="24">
+  </a>
+  <a href="https://facebook.com/finanzas.cardona" target="_blank">
+    <img src="img/facebook.png" alt="Facebook" width="24" height="24">
+  </a>
+  <a href="https://instagram.com/finanzas.cardona" target="_blank">
+    <img src="img/instagram.png" alt="Instagram" width="24" height="24">
+  </a>
+</div>
+    <p><a href="aviso.html">Aviso legal</a></p>
+    <address>
+      Carretera Alfonso XIII-64, Urbanización San José casa 12, Melilla, España - CP 52005
+    </address>
+  </footer>
+
+</body>
+</html>
