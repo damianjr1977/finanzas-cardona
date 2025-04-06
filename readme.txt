@@ -36,6 +36,13 @@ Recursos Incluidos:
 - readme.txt         → Este archivo
 
 --------------------------------------------------------
+Validación:
+--------------------------------------------------------
+El código HTML de todas las páginas ha sido validado correctamente mediante el validador oficial W3C:
+https://validator.w3.org/
+
+Verificación de documentos completada. No se muestran errores ni advertencias.
+--------------------------------------------------------
 Notas Importantes:
 --------------------------------------------------------
 - Sitio con fines académicos, no funcional.
@@ -44,4 +51,7 @@ Notas Importantes:
 - Los enlaces a redes sociales llevan a sitios ficticios o simulados.
 
 --------------------------------------------------------
-Fecha de entrega: Abril 2025
+📎 Sitio publicado en GitHub Pages:
+https://damianjr1977.github.io/finanzas-cardona/
+
+Fecha de entrega: 06 Abril 2025
