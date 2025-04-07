@@ -30,7 +30,7 @@ Estructura del Sitio:
 --------------------------------------------------------
 Recursos Incluidos:
 --------------------------------------------------------
-- Carpeta /img       → Imágenes de productos, iconos, banner, logotipo y favicon
+- Carpeta /img       → Imágenes de productos, iconos, logotipo y favicon
 - Carpeta /css       → estilos.css con todos los estilos aplicados
 - favicon.ico        → Icono de pestaña del navegador
 - readme.txt         → Este archivo
